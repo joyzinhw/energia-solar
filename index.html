@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta name="author" content="@joyzinhw">
+    <meta name="description" content="calcular a energia solar">
+    <meta name="keywords" content="calcular a energia solar">
+    <link rel="short icon" href="assest/img/pngwing.com.png">
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assest/css/style.css">
+	<title>calcular</title>
+</head>
+<body>
+	<h1>Calculo de Energia Solar</h1>
+<br><br>
+    <label for="sentenca">Escolha um Painel:</label>
+    <select id="sentenca" autofocus required>
+        <option value="1">575w</option>
+        <option value="2">550w</option>
+        <option value="3">450w</option>
+    </select>
+
+    <br><br>
+
+    <label for="valor">Digite a quantidade de paineis:</label>
+    <input type="number" id="valor" autofocus required>
+
+    <br><br>
+
+    <button onclick="calcular()">Calcular</button>
+   
+
+    <br><br>
+<br><br>
+  <h1 class="teste">Francisco Moura Energia Solar</h1>
+
+    <table id="resultado">
+        <tr>
+            <th>PAINEL</th>
+            <th>KWH/MÊS</th>
+            <th>KW</th>
+        </tr>
+
+        
+    </table>
+    <br><br>
+    <table id="regioesTable">
+        <tr>
+            <th>REGIÃO</th>
+            <th>KWH/M2</th>
+        </tr>
+    </table>  
+
+<p>Simulação baseada no índice de irradiação solar das regiões do Brasil.</p>
+<br>
+
+<h2 class="tenso">O gerador de energia fotovoltaico de 5,75 kWp é composto por:</h2>
+<ul>
+    <li>MONITORAMENTO E EFICIÊNCIA</li>
+    <li>INVERSOR SOLAR GROWATT ON GRID MIN5000TL-X 5KW MONOFASICO 220V 2MPPT</li>
+    <li>CABO SOLAR FOTOVOLTAICO FLEXIVEL 6MM 1,8KV CC RL 50 PRETO 50 CABO SOLAR FOTOVOLTAICO FLEXIVEL 6MM 1.8KV CC RL 50 VERMELHO</li>
+    <li>STAUBLI CONECTOR MC4 32.0016+17P0002-02 PARES DE CONECTORES MC4</li>
+    <li>PAINEL SOLAR JINKO JKM575N-72HL4-V TIGER NEO 575W 144 CEL. N TYPE MONO 22.26%</li>
+    <li>PARAFUSOS</li>
+    <li>ARRUELA</li>
+    <li>TERRINAL</li>
+    <li>ROSIO DE 20 CENTÍMETROS</li>
+    <li>METOLON</li>
+
+</ul>
+  
+	
+<script src="assest/js/scritp.js"></script>
+</body>
+</html>
